@@ -51,6 +51,7 @@ class Frog_Jump_DP3 {
     public static void main(String[] args) {
         int height[] = { 30, 10, 60, 10, 60, 50 };
         int n = height.length;
+        
         int prev = 0;
         int prev2 = 0;
         for (int i = 1; i < n; i++) {
@@ -65,4 +66,6 @@ class Frog_Jump_DP3 {
         }
         System.out.println(prev);
     }
+
+    
 }
